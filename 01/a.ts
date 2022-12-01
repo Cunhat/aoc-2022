@@ -15,7 +15,7 @@ console.log("Part A: ", biggest);
 
 // // Second part
 
- array.sort(function(a, b) { return  b - a });
+ array.sort((a, b) => (b - a));
  console.log("Part B: ",  array[0] + array[1] + array[2]);
 
 
