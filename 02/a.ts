@@ -20,19 +20,11 @@ const translate = {
   };
 
 const checkIfIsWinner = (player: string, you: string) => {
-
     if(player === you) return 3;
-
-    if(player === "A" && you === "C") return 0;
     else if(player === "A" && you === "B") return 6;
-
-    else if(player === "B" && you === "A") return 0;
     else if(player === "B" && you === "C") return 6;
-
-    else if(player === "C" && you === "B") return 0;
     else if(player === "C" && you === "A") return 6;
     else return 0
-
 }
 
 let totalPoints = 0;
